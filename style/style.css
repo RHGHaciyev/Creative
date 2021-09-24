@@ -1,0 +1,1106 @@
+body {
+  margin: 0;
+  font-family: Ubuntu,sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif; }
+
+.fheight {
+  margin-top: 30px; }
+
+.padd {
+  padding: 0px; }
+
+#first .padd {
+  padding: 0px; }
+#first .slider {
+  max-width: 100%;
+  height: 100vh;
+  position: relative;
+  bottom: 0px;
+  overflow: hidden; }
+  #first .slider .inner {
+    width: 600%;
+    margin-left: -100%; }
+    #first .slider .inner .slide {
+      width: calc(100%/6);
+      max-width: 100%;
+      height: 100vh;
+      float: left; }
+  #first .slider .icons {
+    position: absolute;
+    top: 45%;
+    height: 0;
+    font-size: 80px;
+    color: white;
+    width: 100%;
+    z-index: 2; }
+    #first .slider .icons .right {
+      float: right;
+      padding-right: 40px;
+      cursor: pointer;
+      z-index: 2;
+      height: 100vh; }
+      #first .slider .icons .right::before {
+        content: '\2192'; }
+      #first .slider .icons .right:hover {
+        padding-right: 25px;
+        transition: 0.2s;
+        color: #1d1d1d; }
+    #first .slider .icons .left {
+      float: left;
+      padding-left: 40px;
+      cursor: pointer;
+      z-index: 2;
+      height: 100vh; }
+      #first .slider .icons .left::before {
+        content: "\2190"; }
+      #first .slider .icons .left:hover {
+        padding-left: 25px;
+        transition: 0.2s;
+        color: #1d1d1d; }
+  #first .slider .fhead {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    height: 57px; }
+    #first .slider .fhead #main {
+      margin: 0;
+      position: absolute;
+      z-index: 3;
+      top: 0px;
+      right: 70px;
+      visibility: hidden; }
+      #first .slider .fhead #main li {
+        list-style: none;
+        cursor: pointer;
+        display: inline-block;
+        color: white;
+        margin: 20px 40px 0px 0px;
+        overflow: hidden;
+        height: 50px; }
+      #first .slider .fhead #main .home:hover .homeul {
+        height: 570px;
+        visibility: visible;
+        transition: 0.4s; }
+      #first .slider .fhead #main .home:hover .homeul.pages {
+        height: 290px;
+        transition: 0.4s; }
+      #first .slider .fhead #main .home:hover .homeul.pages.menu {
+        height: 130px;
+        transition: 0.4s; }
+      #first .slider .fhead #main .home:hover .homeul.portfolio {
+        height: 570px;
+        visibility: visible;
+        transition: 0.4s; }
+      #first .slider .fhead #main .home:hover .homeul li {
+        opacity: 1;
+        transition: 0.5s ease; }
+      #first .slider .fhead #main .home .homeul {
+        width: 250px;
+        height: 0;
+        border-top: 5px solid #1d1d1d;
+        padding: 0px;
+        position: absolute;
+        background: white;
+        margin-top: 30px;
+        padding-top: 20px;
+        visibility: hidden; }
+        #first .slider .fhead #main .home .homeul .firstLi {
+          list-style: none;
+          margin: 0;
+          width: 250px;
+          height: 45px;
+          opacity: 0; }
+          #first .slider .fhead #main .home .homeul .firstLi:hover {
+            background: #f0f0f0;
+            transition: 0.3s; }
+            #first .slider .fhead #main .home .homeul .firstLi:hover a {
+              color: #1d1d1d;
+              margin-left: 30px;
+              transition: 0.3s; }
+          #first .slider .fhead #main .home .homeul .firstLi a {
+            color: black;
+            text-decoration: none;
+            margin: 20px;
+            font-size: 14px;
+            line-height: 45px;
+            font-weight: 400; }
+            #first .slider .fhead #main .home .homeul .firstLi a i {
+              color: #5a5a5a;
+              padding-right: 10px; }
+      #first .slider .fhead #main .home .homeul.pages.blog {
+        right: 42%; }
+        #first .slider .fhead #main .home .homeul.pages.blog .fright {
+          text-align: right; }
+          #first .slider .fhead #main .home .homeul.pages.blog .fright:hover a {
+            margin-right: 30px;
+            color: #1d1d1d;
+            transition: 0.3s; }
+      #first .slider .fhead #main .home .homeul.pages.menu {
+        right: 2%; }
+        #first .slider .fhead #main .home .homeul.pages.menu .fright {
+          text-align: right; }
+          #first .slider .fhead #main .home .homeul.pages.menu .fright:hover a {
+            margin-right: 30px;
+            color: #1d1d1d;
+            transition: 0.3s; }
+      #first .slider .fhead #main .home .homeul.portfolio, #first .slider .fhead #main .home .homeul.elements {
+        width: 1366px;
+        height: 0px;
+        border-top: 5px solid #1d1d1d;
+        padding: 0px;
+        position: absolute;
+        left: -92.6%;
+        margin-top: 30px;
+        padding-top: 20px;
+        text-align: center;
+        height: 570px; }
+        #first .slider .fhead #main .home .homeul.portfolio .portlihead, #first .slider .fhead #main .home .homeul.elements .portlihead {
+          width: 251px;
+          background: none;
+          text-align: left;
+          height: 570px;
+          margin: 0px;
+          margin-top: 19px;
+          border-right: 1px solid lightgray; }
+          #first .slider .fhead #main .home .homeul.portfolio .portlihead:last-child, #first .slider .fhead #main .home .homeul.elements .portlihead:last-child {
+            border-right: none; }
+          #first .slider .fhead #main .home .homeul.portfolio .portlihead .heada, #first .slider .fhead #main .home .homeul.elements .portlihead .heada {
+            color: #1d1d1d;
+            font-weight: bold;
+            text-align: left;
+            margin-left: 15px;
+            text-decoration: none; }
+          #first .slider .fhead #main .home .homeul.portfolio .portlihead .homeul.portpage, #first .slider .fhead #main .home .homeul.elements .portlihead .homeul.portpage {
+            border-top: none;
+            padding-top: 0px; }
+            #first .slider .fhead #main .home .homeul.portfolio .portlihead .homeul.portpage li, #first .slider .fhead #main .home .homeul.elements .portlihead .homeul.portpage li {
+              width: 254px;
+              margin-left: -4px; }
+    #first .slider .fhead .logo {
+      position: absolute;
+      top: -25px;
+      left: 40px;
+      width: 130px; }
+    #first .slider .fhead .lines {
+      position: absolute;
+      right: 50px;
+      width: 30px;
+      height: 25px;
+      top: 16px;
+      transform: rotate(180deg);
+      z-index: 1; }
+      #first .slider .fhead .lines .line {
+        width: 30px;
+        height: 4px;
+        position: absolute;
+        top: 0px;
+        background: white; }
+      #first .slider .fhead .lines .line1 {
+        width: 30px;
+        height: 4px;
+        position: absolute;
+        top: 10px;
+        background: white; }
+      #first .slider .fhead .lines .line2 {
+        width: 30px;
+        height: 4px;
+        position: absolute;
+        top: 20px;
+        background: white; }
+      #first .slider .fhead .lines .Cline1 {
+        width: 0px;
+        height: 4px;
+        transform: rotate(40deg);
+        position: absolute;
+        right: 0px;
+        top: 11px;
+        background: white; }
+      #first .slider .fhead .lines .Cline2 {
+        width: 0px;
+        height: 4px;
+        transform: rotate(-40deg);
+        position: absolute;
+        right: 0px;
+        top: 11px;
+        background: white; }
+  #first .slider .liline {
+    width: 0px;
+    position: absolute;
+    margin-top: 2px;
+    height: 2px;
+    border-radius: 30px;
+    background: white; }
+  #first .slider .text {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color: white;
+    top: 0;
+    z-index: 1;
+    text-shadow: 0 0 0 gray; }
+    #first .slider .text h1 {
+      font-size: 170px;
+      line-height: -15px;
+      margin-bottom: 0px;
+      font-family: 'Montserrat';
+      font-weight: 700;
+      margin-top: 40%;
+      opacity: 0; }
+    #first .slider .text p {
+      font-size: 20px;
+      font-family: Ubuntu;
+      font-weight: 400;
+      line-height: 34px;
+      margin-top: 0px;
+      margin-top: 40%;
+      opacity: 0; }
+    #first .slider .text button {
+      color: white;
+      display: inline-block;
+      border: 2px solid white;
+      padding: 20px 40px;
+      border-radius: 50px;
+      background: transparent;
+      outline: none;
+      margin: 14px 7px;
+      font-weight: 400;
+      cursor: pointer;
+      margin-top: 40%;
+      opacity: 0; }
+      #first .slider .text button:hover {
+        background: #1d1d1d;
+        border: 2px solid #1d1d1d;
+        transition: 0.3s ease; }
+    #first .slider .text .blue {
+      background: #1d1d1d;
+      border: 2px solid #1d1d1d; }
+      #first .slider .text .blue:hover {
+        background: black;
+        border: 2px solid black;
+        transition: 0.3s ease; }
+#first .scrollup {
+  position: fixed;
+  background: #0d42be;
+  font-size: 10px;
+  color: white;
+  border: 1px solid transparent;
+  font-size: 25px;
+  text-align: center;
+  padding: 3px 13px 10px 13px;
+  border-radius: 20%;
+  top: 92%;
+  right: 10px;
+  z-index: 15;
+  display: none; }
+
+#second {
+  width: 100%; }
+  #second img {
+    width: 100%; }
+  #second .padd {
+    padding: 0px; }
+  #second .texts {
+    padding: 85px; }
+  #second .secp {
+    font-weight: bold; }
+  #second h2 {
+    font-weight: bold;
+    letter-spacing: -2px; }
+  #second button {
+    border: 2px solid black;
+    padding: 15px 40px;
+    border-radius: 50px;
+    margin-left: 0px;
+    outline: none;
+    margin: 14px 7px;
+    font-weight: 400;
+    cursor: pointer;
+    color: black;
+    background: white; }
+    #second button:hover {
+      background: black;
+      border: 2px solid black;
+      color: white;
+      transition: 0.5s ease; }
+    #second button i {
+      font-size: 20px;
+      margin-left: 27px; }
+  #second img {
+    height: 617px; }
+
+#third .parallax {
+  height: 450px;
+  background: url("../images/parallax.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  #third .parallax h2 {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: -3px; }
+
+#four {
+  height: 500px;
+  background: #e2e2e2 !important;
+  padding-top: 15%; }
+  #four h1 {
+    font-weight: bold;
+    color: black;
+    line-height: 1.5; }
+  #four p {
+    margin-top: 34px; }
+  #four .svgbox {
+    width: 100%;
+    height: 300px;
+    border-top: 8px solid #1d1d1d;
+    padding: 0px;
+    position: relative;
+    top: -350px;
+    background: white;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 7px; }
+    #four .svgbox #svg path {
+      stroke: #1d1d1d;
+      animation: firstsvg 4s; }
+    #four .svgbox h3 {
+      margin: 40px 0px 0px 0px; }
+      #four .svgbox h3 a {
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        cursor: pointer; }
+        #four .svgbox h3 a:hover {
+          color: #1d1d1d;
+          transition: 0.1s; }
+    #four .svgbox p {
+      margin-top: 12px; }
+    #four .svgbox:hover {
+      background: #0d42be;
+      transition: all 0.5s ease; }
+      #four .svgbox:hover h1 {
+        color: white; }
+      #four .svgbox:hover h3 a {
+        color: white; }
+      #four .svgbox:hover p {
+        color: white; }
+  #four .top {
+    position: relative;
+    top: -250px; }
+
+#five {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  position: relative; }
+  #five .topc h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin: 0px;
+    margin-top: -5%;
+    font-weight: bold; }
+  #five .topc .topr {
+    margin-top: 70px; }
+    #five .topc .topr .bord .lborder {
+      border-left: 1px solid white;
+      margin-top: 30px;
+      margin-bottom: 80px;
+      color: white; }
+      #five .topc .topr .bord .lborder li {
+        list-style: none;
+        line-height: 2; }
+        #five .topc .topr .bord .lborder li a {
+          text-decoration: none;
+          color: white;
+          font-weight: bold; }
+    #five .topc .topr .bord h4 {
+      color: white;
+      letter-spacing: -0.3px;
+      font-weight: bold;
+      font-size: 22px; }
+  #five button {
+    border: 2px solid white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    outline: none;
+    font-weight: 400;
+    cursor: pointer;
+    color: #1d1d1d;
+    background: white;
+    position: absolute;
+    bottom: 10px;
+    left: 40%; }
+    #five button:hover {
+      background: black;
+      border: 2px solid black;
+      color: white;
+      transition: 0.5s ease; }
+    #five button i {
+      font-size: 20px;
+      margin-left: 27px; }
+
+#six {
+  height: auto; }
+  #six h1 {
+    font-weight: bold;
+    color: black;
+    line-height: 1.5; }
+  #six p {
+    margin-top: 34px; }
+  #six .svgbox {
+    width: 100%;
+    height: 550px;
+    border: 2px solid rgba(182, 180, 180, 0.973);
+    border-top: 8px solid #1d1d1d;
+    padding: 0px;
+    position: relative;
+    background: white;
+    text-align: left;
+    padding: 40px;
+    background: white;
+    margin-bottom: 7px; }
+    #six .svgbox h3 {
+      margin: 40px 0px 0px 0px; }
+      #six .svgbox h3 a {
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        cursor: pointer; }
+        #six .svgbox h3 a:hover {
+          color: #1d1d1d;
+          transition: 0.1s; }
+    #six .svgbox h1 {
+      color: #1d1d1d;
+      margin-bottom: 0px; }
+    #six .svgbox h4 {
+      color: #1d1d1d;
+      font-size: 16px;
+      margin-top: 0px; }
+    #six .svgbox p {
+      margin-top: 12px; }
+    #six .svgbox ul {
+      padding: 0px;
+      margin-top: 40px; }
+      #six .svgbox ul li {
+        list-style: none;
+        color: gray;
+        line-height: 2.3; }
+        #six .svgbox ul li i {
+          padding-right: 10px; }
+      #six .svgbox ul .lblack {
+        color: black; }
+        #six .svgbox ul .lblack i {
+          color: #1d1d1d; }
+    #six .svgbox button {
+      border: 2px solid #0d42be;
+      padding: 15px 45px;
+      border-radius: 50px;
+      font-weight: bold;
+      margin-top: 30px;
+      outline: none;
+      font-weight: 400;
+      cursor: pointer;
+      color: #0d42be;
+      background: white; }
+      #six .svgbox button:hover {
+        background: #0d42be;
+        border: 2px solid black;
+        color: white; }
+    #six .svgbox:hover {
+      background: #0d42be;
+      transition: 0.5s ease; }
+  #six .top {
+    position: relative;
+    margin: 70px 0px; }
+
+#seven {
+  height: auto;
+  margin-top: 80px;
+  padding-bottom: 70px; }
+  #seven .textsev {
+    text-align: center;
+    color: white;
+    margin-top: 65px; }
+    #seven .textsev h1 {
+      margin-bottom: 35px; }
+    #seven .textsev p {
+      color: white; }
+    #seven .textsev .latestp {
+      margin-bottom: 30px; }
+    #seven .textsev .down {
+      color: white;
+      font-size: 45px;
+      cursor: pointer; }
+      #seven .textsev .down:hover {
+        color: #1d1d1d;
+        transition: 0.5s easy; }
+
+#eight .svgbox {
+  width: 100%;
+  margin-top: 70px;
+  padding-left: 40px;
+  margin-top: 20%; }
+  #eight .svgbox #svg {
+    float: left;
+    padding-right: 30px; }
+  #eight .svgbox h3 a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none; }
+#eight .right-part {
+  margin-top: 13%; }
+  #eight .right-part h1 {
+    font-weight: bold;
+    color: black; }
+  #eight .right-part p {
+    margin: 30px 0px;
+    font-size: 15px;
+    color: gray; }
+#eight .imgpadd {
+  padding: 7px; }
+  #eight .imgpadd img {
+    width: 100%;
+    margin-bottom: 5px; }
+
+#ten {
+  background: #e9e9e9; }
+  #ten .texts {
+    text-align: center;
+    margin: 80px 0px; }
+    #ten .texts h1 {
+      font-size: 80px;
+      font-weight: 700;
+      color: black;
+      margin-bottom: 30px; }
+    #ten .texts p {
+      color: gray;
+      font-weight: bold;
+      line-height: 1; }
+  #ten img {
+    width: 100%; }
+  #ten .imgbott {
+    padding-bottom: 30px; }
+
+#eleven {
+  margin-top: 50px; }
+  #eleven .box img {
+    width: 100%;
+    padding-bottom: 25px; }
+  #eleven .box a {
+    color: black;
+    font-weight: bold;
+    margin: 40px 0px;
+    text-decoration: none;
+    font-size: 19px;
+    cursor: pointer; }
+  #eleven .box p {
+    font-weight: bold;
+    color: gray;
+    padding-top: 4px; }
+  #eleven .bbox h4 {
+    letter-spacing: -0.8px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #222; }
+  #eleven .bbox ul {
+    padding: 0px; }
+    #eleven .bbox ul li {
+      list-style: none;
+      margin: 10px 0px; }
+      #eleven .bbox ul li a {
+        color: black;
+        font-weight: 300;
+        text-decoration: none; }
+        #eleven .bbox ul li a:hover {
+          color: #1d1d1d; }
+
+#thirteen {
+  background: #222;
+  padding: 60px 30px; }
+  #thirteen .padd {
+    padding: 0px; }
+    #thirteen .padd .botborder {
+      border-bottom: 1px solid #7a7a7a;
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      height: 250px; }
+      #thirteen .padd .botborder h2 {
+        color: white;
+        margin: 0px;
+        margin-bottom: 30px; }
+      #thirteen .padd .botborder p {
+        color: lightgray; }
+      #thirteen .padd .botborder ul {
+        padding: 0px; }
+        #thirteen .padd .botborder ul li {
+          list-style: none;
+          display: inline-block;
+          border-radius: 50%;
+          background: white;
+          padding: 7px 10px;
+          font-size: 15px;
+          color: black;
+          width: 38px;
+          text-align: center;
+          margin-top: 30px; }
+          #thirteen .padd .botborder ul li:hover {
+            background: #1d1d1d;
+            transition: 0.2s ease; }
+            #thirteen .padd .botborder ul li:hover a {
+              color: white;
+              transition: 0.2s ease; }
+          #thirteen .padd .botborder ul li a {
+            color: black; }
+
+#Pfirst .fhead {
+  width: 100%; }
+  #Pfirst .fhead #main {
+    margin: 0;
+    position: absolute;
+    z-index: 3;
+    top: 25px;
+    right: 70px;
+    visibility: hidden; }
+    #Pfirst .fhead #main li {
+      list-style: none;
+      cursor: pointer;
+      display: inline-block;
+      color: white;
+      margin: 20px 40px 0px 0px;
+      overflow: hidden;
+      height: 50px; }
+    #Pfirst .fhead #main .home:hover .homeul {
+      height: 570px;
+      visibility: visible;
+      transition: 0.4s; }
+    #Pfirst .fhead #main .home:hover .homeul.pages {
+      height: 290px;
+      transition: 0.4s; }
+    #Pfirst .fhead #main .home:hover .homeul.pages.menu {
+      height: 130px;
+      transition: 0.4s; }
+    #Pfirst .fhead #main .home:hover .homeul.portfolio {
+      height: 570px;
+      visibility: visible;
+      transition: 0.4s; }
+    #Pfirst .fhead #main .home:hover .homeul li {
+      opacity: 1;
+      transition: 0.5s ease; }
+    #Pfirst .fhead #main .home .homeul {
+      width: 250px;
+      height: 0;
+      border-top: 5px solid #1d1d1d;
+      padding: 0px;
+      position: absolute;
+      background: white;
+      margin-top: 30px;
+      padding-top: 20px;
+      visibility: hidden; }
+      #Pfirst .fhead #main .home .homeul .firstLi {
+        list-style: none;
+        margin: 0;
+        width: 250px;
+        height: 45px;
+        opacity: 0; }
+        #Pfirst .fhead #main .home .homeul .firstLi:hover {
+          background: #f0f0f0;
+          transition: 0.3s; }
+          #Pfirst .fhead #main .home .homeul .firstLi:hover a {
+            color: #1d1d1d;
+            margin-left: 30px;
+            transition: 0.3s; }
+        #Pfirst .fhead #main .home .homeul .firstLi a {
+          color: black;
+          text-decoration: none;
+          margin: 20px;
+          font-size: 14px;
+          line-height: 45px;
+          font-weight: 400; }
+          #Pfirst .fhead #main .home .homeul .firstLi a i {
+            color: #5a5a5a;
+            padding-right: 10px; }
+    #Pfirst .fhead #main .home .homeul.pages.blog {
+      right: 42%; }
+      #Pfirst .fhead #main .home .homeul.pages.blog .fright {
+        text-align: right; }
+        #Pfirst .fhead #main .home .homeul.pages.blog .fright:hover a {
+          margin-right: 30px;
+          color: #1d1d1d;
+          transition: 0.3s; }
+    #Pfirst .fhead #main .home .homeul.pages.menu {
+      right: 2%; }
+      #Pfirst .fhead #main .home .homeul.pages.menu .fright {
+        text-align: right; }
+        #Pfirst .fhead #main .home .homeul.pages.menu .fright:hover a {
+          margin-right: 30px;
+          color: #1d1d1d;
+          transition: 0.3s; }
+    #Pfirst .fhead #main .home .homeul.portfolio {
+      width: 1366px;
+      height: 0px;
+      border-top: 5px solid #1d1d1d;
+      padding: 0px;
+      position: absolute;
+      left: -92.6%;
+      margin-top: 30px;
+      padding-top: 20px;
+      text-align: center; }
+      #Pfirst .fhead #main .home .homeul.portfolio .portlihead {
+        width: 251px;
+        background: none;
+        text-align: left;
+        height: 570px;
+        margin: 0px;
+        margin-top: 19px;
+        border-right: 1px solid lightgray; }
+        #Pfirst .fhead #main .home .homeul.portfolio .portlihead:last-child {
+          border-right: none; }
+        #Pfirst .fhead #main .home .homeul.portfolio .portlihead .heada {
+          color: #1d1d1d;
+          font-weight: bold;
+          text-align: left;
+          margin-left: 15px;
+          text-decoration: none; }
+        #Pfirst .fhead #main .home .homeul.portfolio .portlihead .homeul.portpage {
+          border-top: none;
+          padding-top: 0px; }
+          #Pfirst .fhead #main .home .homeul.portfolio .portlihead .homeul.portpage li {
+            width: 254px;
+            margin-left: -4px; }
+  #Pfirst .fhead .logo {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    width: 130px; }
+  #Pfirst .fhead .lines {
+    position: absolute;
+    right: 50px;
+    width: 30px;
+    height: 25px;
+    top: 40px;
+    transform: rotate(180deg);
+    z-index: 1; }
+    #Pfirst .fhead .lines .line {
+      width: 30px;
+      height: 4px;
+      position: absolute;
+      top: 0px;
+      background: white; }
+    #Pfirst .fhead .lines .line1 {
+      width: 30px;
+      height: 4px;
+      position: absolute;
+      top: 10px;
+      background: white; }
+    #Pfirst .fhead .lines .line2 {
+      width: 30px;
+      height: 4px;
+      position: absolute;
+      top: 20px;
+      background: white; }
+    #Pfirst .fhead .lines .Cline1 {
+      width: 0px;
+      height: 4px;
+      transform: rotate(40deg);
+      position: absolute;
+      right: 0px;
+      top: 11px;
+      background: white; }
+    #Pfirst .fhead .lines .Cline2 {
+      width: 0px;
+      height: 4px;
+      transform: rotate(-40deg);
+      position: absolute;
+      right: 0px;
+      top: 11px;
+      background: white; }
+
+@media only screen and (max-width: 1192px) {
+  #first .slider .text h1 {
+    font-size: 135px; }
+  #first .slider .text p {
+    font-size: 22px; }
+  #first .slider .sfhead {
+    display: none; }
+  #first .slider .fhead #main .home .homeul {
+    width: 251px; }
+  #first .slider .fhead #main .home .homeul.portfolio {
+    left: 0px;
+    padding: 0px;
+    width: 251px;
+    overflow-y: auto; }
+    #first .slider .fhead #main .home .homeul.portfolio .portlihead {
+      display: block;
+      margin-top: 0px; }
+  #first .slider .fhead #main .home .homeul.elements {
+    left: 45%;
+    padding: 0px;
+    width: 251px;
+    overflow-y: auto; }
+    #first .slider .fhead #main .home .homeul.elements .portlihead {
+      display: block;
+      margin-top: 0px; }
+  #first .slider .fhead #main .homeul.portpage {
+    margin-top: 0px; }
+
+  #third .parallax h2 {
+    font-size: 75px;
+    padding-top: 50px; }
+
+  #four {
+    height: 500px; }
+
+  #five {
+    background-attachment: fixed; }
+    #five .topc h1 {
+      margin-top: 30px;
+      font-size: 45px; }
+    #five .topc .topr .lborder {
+      padding: 0px;
+      border: none; }
+    #five .topc .topr h4 {
+      margin: 0px; }
+
+  #six h1 {
+    font-size: 30px; }
+  #six .svgbox button {
+    padding: 5px 45px;
+    margin-top: 0px; }
+  #six .svgbox p {
+    font-size: 13px; } }
+@media only screen and (max-width: 992px) {
+  #first .slider .icons {
+    display: block;
+    top: 70%; }
+  #first .slider .fhead {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    background: white;
+    z-index: 10; }
+    #first .slider .fhead .lines {
+      left: 50px;
+      position: absolute;
+      top: 18px; }
+      #first .slider .fhead .lines .line, #first .slider .fhead .lines .line1, #first .slider .fhead .lines .line2, #first .slider .fhead .lines .Cline1, #first .slider .fhead .lines .Cline2 {
+        background: white;
+        cursor: pointer; }
+    #first .slider .fhead .logo {
+      left: 45%;
+      position: absolute;
+      top: -14px;
+      width: 105px; }
+    #first .slider .fhead nav #main {
+      position: absolute;
+      border-top: 3px solid black;
+      left: 0px;
+      top: 60px;
+      background: white;
+      width: 100%; }
+      #first .slider .fhead nav #main .home {
+        display: block;
+        color: gray;
+        border-bottom: 1px solid #0d42be;
+        margin: 10px 10px 0px 0px;
+        height: 30px; }
+        #first .slider .fhead nav #main .home .homeul, #first .slider .fhead nav #main .home .homeul.elements, #first .slider .fhead nav #main .home .homeul.portfolio {
+          width: 251px;
+          left: 40px;
+          margin-top: 9px;
+          padding-top: 0px; }
+        #first .slider .fhead nav #main .home .homeul.portpage {
+          left: 0px; }
+  #first .slider .text {
+    top: 150px; }
+    #first .slider .text h1 {
+      font-size: 80px;
+      padding-top: 35px; }
+    #first .slider .text p {
+      font-size: 17px;
+      line-height: 22px; }
+    #first .slider .text button {
+      padding: 20px 40px; }
+
+  #second img {
+    height: auto; }
+  #second .texts h2 {
+    font-size: 55px; }
+
+  #third .parallax h2 {
+    font-size: 75px; }
+
+  #four {
+    height: 1200px; }
+
+  #five {
+    background-attachment: fixed; }
+    #five .topc h1 {
+      margin-top: 0px; }
+    #five button {
+      left: 30%; }
+
+  #six h1 {
+    font-size: 30px; }
+  #six .svgbox button {
+    padding: 15px 45px;
+    margin-top: 30px; }
+
+  #eight .svgbox {
+    padding-left: 0px; } }
+@media only screen and (max-width: 768px) {
+  #first .slider .icons {
+    display: none; }
+  #first .slider .text {
+    top: 150px; }
+    #first .slider .text h1 {
+      font-size: 85px;
+      padding-top: 35px; }
+    #first .slider .text p {
+      font-size: 16px;
+      line-height: 25px; }
+    #first .slider .text button {
+      padding: 10px 40px; }
+
+  #second img {
+    height: auto; }
+  #second .texts h2 {
+    font-size: 40px; }
+
+  #third .parallax h2 {
+    font-size: 50px;
+    padding-top: 50px; }
+  #third .svgbox {
+    text-align: center; }
+  #third a {
+    text-decoration: none;
+    cursor: pointer; }
+
+  #four {
+    height: 1200px; }
+
+  #five {
+    background-attachment: fixed; }
+    #five .topc h1 {
+      margin-top: 0px; }
+    #five button {
+      left: 10px; }
+
+  #six h1 {
+    font-size: 30px; }
+  #six .svgbox {
+    padding: 0px; }
+    #six .svgbox button {
+      padding: 15px 45px;
+      margin-left: 50px; }
+    #six .svgbox h1 {
+      padding-left: 50px; }
+    #six .svgbox h4 {
+      padding-left: 50px; }
+    #six .svgbox ul {
+      padding-left: 50px; }
+
+  #seven .textsev p {
+    font-size: 13px; }
+  #seven .textsev h1 {
+    font-size: 30px; }
+
+  #eight .svgbox {
+    padding-left: 0px; }
+    #eight .svgbox #svg {
+      float: none; }
+  #eight .right-part h1 {
+    font-size: 25px; } }
+@media only screen and (max-width: 480px) {
+  #first .slider .icons {
+    display: none; }
+  #first .slider .text {
+    top: 150px; }
+    #first .slider .text h1 {
+      font-size: 41px;
+      padding-top: 35px; }
+    #first .slider .text p {
+      font-size: 16px;
+      line-height: 19px; }
+    #first .slider .text button {
+      padding: 5px 30px; }
+
+  #second .texts {
+    padding: 15px; }
+    #second .texts h2 {
+      font-size: 36px; }
+    #second .texts .secp {
+      font-size: 12px; }
+    #second .texts .latestp {
+      font-size: 12px; }
+    #second .texts button {
+      margin: 0px;
+      margin-bottom: 10px;
+      padding: 10px; }
+      #second .texts button i {
+        display: none; }
+  #second img {
+    height: auto; }
+
+  #third .parallax h2 {
+    font-size: 22px;
+    padding-top: 50px;
+    letter-spacing: 0px; }
+  #third .svgbox {
+    text-align: center; }
+  #third a {
+    text-decoration: none;
+    cursor: pointer; }
+
+  #four {
+    height: 1200px; }
+    #four h1 {
+      font-size: 16px; }
+    #four p {
+      margin-top: 0px;
+      font-size: 13.3px; }
+
+  #five {
+    background-attachment: fixed; }
+    #five .topc h1 {
+      margin-top: 30px;
+      font-size: 45px; }
+    #five .topc .topr .lborder {
+      padding: 0px;
+      border: none; }
+    #five .topc .topr h4 {
+      margin: 0px; }
+
+  #six h1 {
+    font-size: 16px; }
+  #six .svgbox {
+    padding: 0px; }
+    #six .svgbox button {
+      padding: 15px 45px;
+      margin-left: 10px; }
+    #six .svgbox h1 {
+      padding-left: 50px; }
+    #six .svgbox h4 {
+      padding-left: 50px; }
+    #six .svgbox ul {
+      padding-left: 10px; }
+
+  #seven .textsev p {
+    font-size: 13px; }
+  #seven .textsev h1 {
+    font-size: 18px; }
+
+  #eight .svgbox {
+    padding-left: 0px; }
+    #eight .svgbox #svg {
+      float: none; }
+  #eight .right-part h1 {
+    font-size: 15.4px; } }
+
+/*# sourceMappingURL=style.css.map */
